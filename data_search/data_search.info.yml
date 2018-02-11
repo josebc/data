@@ -1,0 +1,15 @@
+name: Data Search
+type: module
+description: Provides search and views search integration for Data tables.
+package: Data
+# core: 8.x
+dependencies:
+  - data
+  - search
+
+
+# Information added by Drupal.org packaging script on 2016-12-04
+version: '8.x-1.0-alpha2'
+core: '8.x'
+project: 'data'
+datestamp: 1480881796

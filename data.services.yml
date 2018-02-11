@@ -1,0 +1,8 @@
+services:
+  data.row_manager:
+    class: Drupal\data\RowManager
+    arguments: ['@database']
+  data.table_manager:
+    class: Drupal\data\TableManager
+    arguments: ['@database', '@entity_type.manager', '@module_handler', '@config.factory']
+

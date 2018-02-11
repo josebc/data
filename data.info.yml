@@ -1,0 +1,11 @@
+name: Data
+type: module
+description: Provides two dimensional storage space for arbitrary data sets.
+package: Data
+# core: 8.x
+
+# Information added by Drupal.org packaging script on 2016-12-04
+version: '8.x-1.0-alpha2'
+core: '8.x'
+project: 'data'
+datestamp: 1480881796
